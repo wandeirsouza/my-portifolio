@@ -176,4 +176,25 @@ footer #footer__email-phone p {
   }
 }
 
+.gradiente{
+  background: linear-gradient(45deg,#084177,#687466,#cd8d7b,#fbc490);
+  background-size: 300% 300%;
+  animation: colors 10s ease infinite;
+}
+
+@keyframes colors {
+  0%{
+    background-position: 0% 50%;
+  }
+
+  50%{
+    background-position: 80% 50%;
+  }
+
+  100%{
+    background-position: 0% 50%;
+  }
+
+}
+
 /*# sourceMappingURL=style.css.map */
